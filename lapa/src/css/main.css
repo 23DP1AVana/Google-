@@ -1,0 +1,39 @@
+h1 {
+    color: brown;
+}
+
+#stack-container {
+    background-color: blue;
+}
+
+.stack-card {
+    border: 10px dotted;
+}
+
+.stack-card p{
+    color: crimson;
+    font-size: 20px;
+}
+.stack-card:first-child{
+    background-color: greenyellow;
+}
+.stack-card:nth-child(3){
+    background-color: azure;
+}
+#stack-container{
+    display: flex;
+    justify-content: space-between;
+}
+footer {
+    text-align: center;
+    /* padding: 20px; */
+    background-color: #2F3C7E;
+    /* z-index: 10; */
+    color: white;
+    /* position: absolute; */
+    /* bottom: 0; */
+    width: 100%;
+    
+    bottom: 0;
+    position :absolute;
+  }
